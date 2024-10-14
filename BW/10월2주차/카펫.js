@@ -1,5 +1,4 @@
 /* 구글링 */
-
 function solution(brown, yellow) {
     var answer = [];
     var total = brown+yellow;

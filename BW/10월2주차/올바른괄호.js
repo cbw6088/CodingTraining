@@ -1,4 +1,4 @@
-function solution(s){
+function solution(s) {
     var answer = true;
     var stack = [];
     for(i=0; i<s.length; i++){

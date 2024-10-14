@@ -1,4 +1,4 @@
-function solution(A,B){
+function solution(A,B) {
     var answer = 0;
 
     /* 가장 작은 수 * 가장 큰 수 */

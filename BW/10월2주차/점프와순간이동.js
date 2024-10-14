@@ -1,5 +1,4 @@
-function solution(n)
-{
+function solution(n) {
     var N=n;
     var K=0;
     
