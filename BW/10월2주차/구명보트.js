@@ -5,10 +5,9 @@ function solution(people, limit) {
     var end = arr.length-1;
     arr.sort((a, b) => a - b); 
     
-    while(1){
-        if(start === end) break;
+    while(start <= end){
         if(arr[start]+arr[end] <= limit) start++;
-        end++;
+        end--;
         answer++;
     }
     
