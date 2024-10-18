@@ -1,3 +1,5 @@
+// 출력 예시와 문제 스타일이 이 전 피보나치와 비슷한 점에서 착안
+
 function solution(n) {
     var fibo = [];
     fibo[0] = 1, fibo[1] = 1;
