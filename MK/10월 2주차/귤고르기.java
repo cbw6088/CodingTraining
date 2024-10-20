@@ -20,7 +20,6 @@ class Solution {
 
         Collections.sort(arr, (x,y)->y[0]-x[0]);
 
-
         for (int[] tmp : arr) {
             k -= tmp[0];
             ans++;
