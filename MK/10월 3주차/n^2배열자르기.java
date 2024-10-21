@@ -8,7 +8,6 @@ class Solution {
         while (left <= right) {
             ans[idx++]=(int) Math.max(left/n,left%n)+1;
             left++;
-
         }
 
         return ans;

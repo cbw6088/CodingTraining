@@ -5,9 +5,6 @@ class Solution {
         int res=0;
         int cnt=s.length();
 
-        // if (check(s)) {
-        //     res++;
-        // }
 
         while (cnt!=0) {
             cnt--;
