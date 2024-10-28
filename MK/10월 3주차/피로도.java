@@ -36,6 +36,5 @@ class Solution {
                 bt(num, level+1, s.append(String.valueOf(i)));
             }
         }
-
     }
 }
