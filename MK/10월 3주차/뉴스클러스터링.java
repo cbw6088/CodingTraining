@@ -48,8 +48,8 @@ class Solution {
         }
 
         int tmp=0; // 합집합에 넣을 같은것의 개수
-        int num1=0; //교집합수
-        int num2=0; //합집합수
+        int num1=0; //교집합 수
+        int num2=0; //합집합 수
 
         for (String s : map1.keySet()) {
             if (map2.containsKey(s)) { // 같은거 판단
