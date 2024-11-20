@@ -1,0 +1,12 @@
+def f(x):
+    if x % 2 == 0: return x + 1
+
+    x = f'0{bin(x)[2:]}' # 중괄호 안, 슬라이싱으로 순수하게 2진수 값만 남김
+
+    x = f"{x[:x.rindex('0')]}10{x[x.rindex('0') + 2:]}"
+
+    return int(x, 2)
+
+def solution(numbers):
+
+    return [f(number) for number in numbers]

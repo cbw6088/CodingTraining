@@ -1,7 +1,7 @@
 def solution(skill, tree):
 
     candidate=[skill[:i] for i in range(1,len(skill)+1)]
-
+    c, cb , cbd
     res=0
 
     for t in tree:
@@ -13,6 +13,14 @@ def solution(skill, tree):
                 res+=1
 
     return res
+
+
+
+
+
+
+
+
 
 def solution(skill, skill_trees):
     res=0
